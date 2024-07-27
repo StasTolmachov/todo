@@ -3,10 +3,12 @@ package handler
 import (
 	"errors"
 	"github.com/gin-gonic/gin"
+	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"net/http/httptest"
 	"testing"
 	"todo/pkg/service"
+	service_mocks "todo/pkg/service/mocks"
 )
 
 func TestHandler_userIdentity(t *testing.T) {

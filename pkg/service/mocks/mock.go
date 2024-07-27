@@ -1,6 +1,7 @@
 package mocks
 
 import (
+	gomock "github.com/golang/mock/gomock"
 	"reflect"
 	"todo"
 )

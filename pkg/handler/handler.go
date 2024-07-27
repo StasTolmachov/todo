@@ -2,7 +2,12 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/swaggo/files"       // swagger embed files
+	"github.com/swaggo/gin-swagger" // gin-swagger middleware
+
 	"todo/pkg/service"
+
+	_ "todo/docs"
 )
 
 type Handler struct {
